@@ -1,0 +1,801 @@
+	<!--HEADER-->
+	<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from scolarite.uvci.edu.ci/Demande/licence_equivalence by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 May 2020 16:48:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Espace scolarité</title>
+    <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <!-- Meta -->
+ 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Phoenixcoded">
+    <meta name="keywords" content=", Flat ui, Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="Phoenixcoded">
+    <!-- Favicon icon -->
+    <link rel="icon" href="../assets/images/logo_cobranle.ico" type="image/x-icon">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="https://scolarite.uvci.edu.ci/https://scolarite.uvci.edu.ci/assets/assets2/images/logo_cobranle.ico"> -->
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- themify icon -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/icon/themify-icons/themify-icons.css">
+    <!-- ico font -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/icon/icofont/css/icofont.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/icon/font-awesome/css/font-awesome.min.css">
+    <!-- flag icon framework css -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/pages/flag-icon/flag-icon.min.css">
+    <!-- Menu-Search css -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/pages/menu-search/css/component.css">
+    <!-- Horizontal-Timeline css -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/pages/dashboard/horizontal-timeline/css/style.css">
+    
+    <!-- amchart css -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/pages/dashboard/amchart/css/amchart.css">
+    <!-- Notification.css -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/pages/notification/notification.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/bower_components/animate.css/animate.css">
+    <!-- Data Table Css -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/pages/data-table/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/pages/data-table/extensions/responsive/css/responsive.dataTables.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/css/style.css">
+    <!--color css-->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/css/color/color-1.css" id="color"/>
+
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/bootstrap-sweetalert/sweet-alert.css">
+    <link rel="stylesheet" href="../assets/dropify/css/dropify.min.css">
+
+    <!-- Summernote css -->
+    <link rel="stylesheet" type="text/css" href="../assets/assets2/bower_components/summernote/dist/summernote.css">
+
+    <!-- <style type="text/css" media="print">
+    @media print
+    {
+        body {
+            background-color: #000;
+            -webkit-print-color-adjust: exact !important;        }
+    }
+    </style> -->
+
+</head>
+
+<body class="horizontal-fixed" onload="charge_donnee()">
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div></div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <!-- Menu header start -->
+    <nav class="navbar header-navbar">
+        <div class="navbar-wrapper">
+            <div class="navbar-logo">
+                <a class="mobile-menu" id="mobile-collapse" href="#!">
+                    <i class="ti-menu"></i>
+                </a>
+                <a href="../Main.html">
+                    <i class="ti-home"></i> &nbsp;&nbsp; ESPACE SCOLARITE
+                    <!-- <img class="img-fluid" src="https://scolarite.uvci.edu.ci/assets/assets2/images/logo.png" alt="Theme-Logo" /> -->
+                </a> 
+                <a class="mobile-options">
+                    <i class="ti-more"></i>
+                </a>
+            </div>
+            <div class="navbar-container container-fluid">
+                <div>
+                    <ul class="nav-left">
+                        <li>
+                            <a id="collapse-menu" href="#">
+                                <i class="ti-menu"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="main-search morphsearch-search" href="#">
+                                <i class="ti-search"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" onclick="">
+                                <i class="ti-fullscreen"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" >
+                                <img class="img-fluid" src="../assets/assets2/images/logo.png" alt="Logo" /> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" >
+                                UNIVERSITE VIRTUELLE DE CÔTE D'IVOIRE 
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="nav-right">
+                        <li class="header-notification lng-dropdown">
+                            <a href="#" id="dropdown-active-item">
+                                <i class="flag-icon flag-icon-ci m-r-5"></i> Côte d'Ivoire
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Menu header end -->
+    <!-- Menu aside start -->
+    <div class="main-menu">
+        <div class="main-menu-header">
+            <img class="img-40" src="../assets/assets2/images/logo.png" alt="Image" style="width: 80px; height: 40px">
+            <div class="user-details">
+                <span>UNIVERSITE VIRTUELLE DE CÔTE D'IVOIRE</span>
+                <!-- <span id="more-details">UX Designer<i class="icon-arrow-down"></i></span> -->
+            </div>
+        </div>
+        <div class="main-menu-content">
+            <ul class="main-navigation">
+                <li class="nav-item has-class">
+                    <a href="licence_equivalence.html">
+                        <i class="ti-pencil-alt"></i>
+                        <span>Demande d'inscription</span>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#!">
+                        <i class="ti-file"></i>
+                        <span>Espace demande</span>
+                    </a>
+                    <ul class="tree-1">
+                        <li class=""><a href="fiche_equivalence.html">Télécharger ma fiche de demande</a> </li>
+                        <li class=""><a href="maj_equivalence.html">Mise à jour du dossier</a> </li>
+                        <li class=""><a href="resultat_equivalence.html">Résultat de la demande </a> </li>
+                        <li class=""><a href="../Etudiant/create_account.html">Créer son compte insitutionnel</a> </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="../assets/courrier/processus_inscription.pdf">
+                        <i class="ti-list"></i>
+                        <span>Processus d'inscription</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Paiement.html" target="_blank">
+                        <i class="ti-pencil-alt"></i>
+                        <span>Paiement mobile money</span>
+                    </a>
+                </li>
+                   
+            </ul>
+        </div>
+    </div>
+    <!-- Menu aside end -->  
+ 	<!--CONTENT WEB SITE-->
+	
+<!-- Main-body start -->
+    <div class="main-body">
+        <div class="page-wrapper">
+            <!-- Page header start -->
+            <div class="page-header">
+                <div class="page-header-title">
+                    <h4><strong>Demande d'inscription: EQUIVALENCE</strong></h4>
+                </div>
+                <div class="page-header-breadcrumb">
+                    <ul class="breadcrumb-title">
+                        <li class="breadcrumb-item">
+                            <a href="../Demande.html">
+                                <i class="icofont icofont-home"></i>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item"><a href="#">Demande d'inscription</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Page header end -->
+            
+            <!-- Page body start -->
+            <div class="page-body">
+                <div class="row">
+                    <div class="col-sm-12">
+
+                                            <div class="alert alert-danger bg-danger text-white mb-0" role="alert">
+                            Les demandes d'équivalence en LICENCE, ont pris fin depuis le 30 Avril 2020.
+                        </div>
+                                            
+                    </div>
+                </div>
+            </div>
+            <!-- Page body end -->
+        </div>
+    </div>
+    <!-- Main-body end -->
+
+
+    
+    <script>
+function selectNiveau(niveau_id){
+	if(niveau_id!="-1"){
+		loadData('niveau', niveau_id);	
+	}else{
+		$("#niveau").html("<option value='-1'>Selectionnez un niveau</option>");		
+	}
+}
+
+function selectDomaine(id_talent){
+	if(id_talent!="-1"){
+		loadDataDomaine('domaine', id_talent);	
+	}else{
+		$("#domaine").html("<option value='-1'>Selectionnez un domaine</option>");		
+	}
+}
+
+function selectSerie(id_specialite){
+	if(id_specialite!="-1"){
+		loadDataSerie('serie', id_specialite);	
+	}else{
+		$("#serie").html("<option value='-1'>Selectionnez un série</option>");		
+	}
+}
+
+function selectNiveauBulletin(niveau_id){
+	if(niveau_id!="-1"){
+		loadNiveauBulletin('niveau', niveau_id);	
+	}else{
+		$("#niveau").html("<option value='-1'>Selectionnez un niveau</option>");		
+	}
+}
+
+function loadData(loadType,loadId)
+{
+	
+	var dataString = 'loadType='+ loadType +'&loadId='+ loadId;
+
+	$("#"+loadType+"_loader").show();
+	$("#"+loadType+"_loader").fadeIn(400);
+	$.ajax({
+		type: "POST",
+		url: "https://scolarite.uvci.edu.ci/Etudiant/loadNiveau",
+		data: dataString,
+		cache: false,
+		success: function(result){
+			$("#"+loadType+"_loader").hide();
+			$("#"+loadType).html("<option value='-1'>Selectionnez "+loadType+"</option>");  
+			$("#"+loadType).append(result);  
+		}
+	});
+}
+
+function loadDataDomaine(loadType,loadId)
+{
+	var dataString = 'loadType='+ loadType +'&loadId='+ loadId;
+
+	$("#"+loadType+"_loader").show();
+	$("#"+loadType+"_loader").fadeIn(400);
+	$.ajax({
+		type: "POST",
+		url: "https://scolarite.uvci.edu.ci/Vuniversitaire/loadDomaine",
+		data: dataString,
+		cache: false,
+		success: function(result){
+			$("#"+loadType+"_loader").hide();
+			$("#"+loadType).html("<option value='-1'>Selectionnez "+loadType+"</option>");  
+			$("#"+loadType).append(result);  
+		}
+	});
+}
+
+function loadDataSerie(loadType,loadId)
+{
+	var dataString = 'loadType='+ loadType +'&loadId='+ loadId;
+
+	$("#"+loadType+"_loader").show();
+	$("#"+loadType+"_loader").fadeIn(400);
+	$.ajax({
+		type: "POST",
+		url: "https://scolarite.uvci.edu.ci/Demande/loadSerie",
+		data: dataString,
+		cache: false,
+		success: function(result){
+			$("#"+loadType+"_loader").hide();
+			$("#"+loadType).html("<option value='-1'>Selectionnez "+loadType+"</option>");  
+			$("#"+loadType).append(result);  
+		}
+	});
+}
+
+function loadNiveauBulletin(loadType,loadId)
+{
+	var dataString = 'loadType='+ loadType +'&loadId='+ loadId;
+
+	$("#"+loadType+"_loader").show();
+	$("#"+loadType+"_loader").fadeIn(400);
+
+	$.ajax({
+		type: "POST",
+		url: "https://scolarite.uvci.edu.ci/Etudiant/loadNiveauBulletin",
+		data: dataString,
+		cache: false,
+		success: function(result){
+			$("#"+loadType+"_loader").hide();
+			$("#"+loadType).html("<option value='-1'>Selectionnez "+loadType+"</option>");  
+			$("#"+loadType).append(result);  
+		}
+	});
+}
+
+</script>
+    <script type="text/javascript">
+        
+        function page1() 
+        {
+            $('.etape1').removeClass('active'); $('#profil').removeClass('active');
+            $('.etape2').addClass('active'); $('#piece').addClass('active');
+        }
+
+        function page21() 
+        {
+            $('.etape1').addClass('active'); $('#profil').addClass('active');
+            $('.etape2').removeClass('active'); $('#piece').removeClass('active');
+        }
+
+        function page22() 
+        {
+            $('.etape2').removeClass('active'); $('#piece').removeClass('active');
+            $('.etape3').addClass('active'); $('#bac').addClass('active');
+        }
+
+        function page31() 
+        {
+            $('.etape2').addClass('active'); $('#piece').addClass('active');
+            $('.etape3').removeClass('active'); $('#bac').removeClass('active');
+        }
+
+        function page32() 
+        {
+            $('.etape3').removeClass('active'); $('#bac').removeClass('active');
+            $('.etape4').addClass('active'); $('#validation').addClass('active');
+        }
+
+        function page41() 
+        {
+            $('.etape3').addClass('active'); $('#bac').addClass('active');
+            $('.etape4').removeClass('active'); $('#validation').removeClass('active');
+        }
+
+
+        //Verification du numero_bac
+        function verification()
+        {
+            var numero = $("#numero_bac").val().trim();  
+
+            if($("#numero_bac").val()!="" )   
+            {
+                $.ajax({
+                    type: 'POST',
+                    url: "https://scolarite.uvci.edu.ci/Demande/verifNumeroBac/"+numero,
+                    dataType: 'json',
+                    success: function (data) {
+                        if(data == 1)
+                        {
+                            swal({
+                                title: "Numéro de table du BAC",
+                                text: "Ce numéro de table, ne peut éffectuer une demande, car vous êtes déja étudiant de l'UVCI.",
+                                type: "info",
+                                cancelButtonText: "OK"
+                            });
+
+                            $("#btn_demande").hide();
+                        }
+                        else
+                        {
+                            $("#btn_demande").show();
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown)
+                        {
+                            consoleLog('Error get data from ajax');
+                        }
+                });
+            }
+            else
+            {
+                $("#btn_demande").show();
+            }
+        }
+
+    </script>
+
+    <script>
+        function check() 
+        {
+            $('[required]').each(function() 
+            {
+                if($('[required]').val() == '')
+                {
+                    swal({
+                        title: "Champs obligatoires",
+                        text: "Tous les champs indexés (*) sont requis.",
+                        type: "warning",
+                        cancelButtonText: "OK"
+                    });		
+                }
+            });
+        }
+    </script>
+
+     	<!-- End CONTENT -->
+ 
+   	<!--FOOTER-->
+	<!-- Warning Section Starts -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 9]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="http://www.google.com/chrome/">
+                    <img src="assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com">
+                    <img src="assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+    <!-- Warning Section Ends -->
+    <!-- Required Jqurey -->
+    <script type="text/javascript" src="../assets/assets2/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/assets2/bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../assets/assets2/bower_components/tether/dist/js/tether.min.js"></script>
+    <script type="text/javascript" src="../assets/assets2/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="../assets/assets2/bower_components/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <!-- modernizr js -->
+    <script type="text/javascript" src="../assets/assets2/bower_components/modernizr/modernizr.js"></script>
+    <script type="text/javascript" src="../assets/assets2/bower_components/modernizr/feature-detects/css-scrollbars.js"></script>
+    <!-- classie js -->
+    <script type="text/javascript" src="../assets/assets2/bower_components/classie/classie.js"></script>
+    <!-- Chart js -->
+    <script type="text/javascript" src="../assets/assets2/bower_components/chart.js/dist/Chart.js"></script>
+
+    <!-- Rickshow Chart js -->
+    <script src="../assets/assets2/bower_components/d3/d3.js"></script>
+    <script src="../assets/assets2/bower_components/rickshaw/rickshaw.js"></script>
+    <!-- Morris Chart js -->
+    <script src="../assets/assets2/bower_components/raphael/raphael.min.js"></script>
+    <script src="../assets/assets2/bower_components/morris.js/morris.js"></script>
+    <!-- Horizontal-Timeline js -->
+    <script type="text/javascript" src="../assets/assets2/pages/dashboard/horizontal-timeline/js/main.js"></script>
+
+    <!-- data-table js -->
+    <script src="../assets/assets2/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../assets/assets2/bower_components/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="../assets/assets2/pages/data-table/js/jszip.min.js"></script>
+    <script src="../assets/assets2/pages/data-table/js/pdfmake.min.js"></script>
+    <script src="../assets/assets2/pages/data-table/js/vfs_fonts.js"></script>
+    <script src="../assets/assets2/pages/data-table/extensions/responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../assets/assets2/bower_components/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="../assets/assets2/bower_components/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="../assets/assets2/bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../assets/assets2/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../assets/assets2/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+
+    <!-- Masking js -->
+    <script src="../assets/assets2/pages/form-masking/inputmask.js"></script>
+    <script src="../assets/assets2/pages/form-masking/jquery.inputmask.js"></script>
+    <script src="../assets/assets2/pages/form-masking/autoNumeric.js"></script>
+    <script src="../assets/assets2/pages/form-masking/form-mask.js"></script>
+
+    <!-- chat js -->
+    <script src="../assets/assets2/pages/chat/js/mmc-common.js"></script>
+    <script src="../assets/assets2/pages/chat/js/mmc-chat.js"></script>
+    <script type="text/javascript" src="../assets/assets2/pages/chat/js/chat.js"></script>
+    
+    <!-- i18next.min.js -->
+    <script type="text/javascript" src="../assets/assets2/bower_components/i18next/i18next.min.js"></script>
+    <script type="text/javascript" src="../assets/assets2/bower_components/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript" src="../assets/assets2/bower_components/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
+    <script type="text/javascript" src="../assets/assets2/bower_components/jquery-i18next/jquery-i18next.min.js"></script>
+    <!-- Custom js -->
+    <script type="text/javascript" src="../assets/assets2/pages/dashboard/custom-dashboard.js"></script>
+    <script type="text/javascript" src="../assets/assets2/js/script.js"></script>
+    <script src="../assets/assets2/pages/data-table/extensions/responsive/js/responsive-custom.js"></script>
+    <script type="text/javascript" src="../assets/assets2/pages/summernote/custom-note.js"></script>
+
+    <script>
+$(document).ready(function() {
+	/*Bar chart*/
+    var valeur = $('#cont').html();
+    var data1 = {
+        labels: ["Janv", "Fév", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Dec"],
+        datasets: [{
+            label: "Connexion",
+            backgroundColor: [
+                '#7EFF57',
+                'rgba(25, 49, 104, 0.99)',
+                'rgba(25, 49, 104, 0.99)',
+                'rgba(25, 49, 104, 0.99)',
+                '#EFA25E',
+                'rgba(25, 49, 104, 0.99)',
+                '#047D41',
+                '#13D4DB',
+                '#7E1D97',
+                '#FC089A',
+                '#E80F49',
+                '#FDE50A'
+            ],
+            hoverBackgroundColor: [
+                '#89E46E',
+                'rgba(47, 66, 111, 0.88)',
+                'rgba(47, 66, 111, 0.88)',
+                'rgba(47, 66, 111, 0.88)',
+                '#C77C3A',
+                'rgba(47, 66, 111, 0.88)',
+                '#05944C',
+                '#01B1B7',
+                '#64017D',
+                '#D80D87',
+                '#D8003A',
+                '#D8C308'
+            ],
+            data: 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: nbre_conn</p>
+<p>Filename: etudiant/chart_js.php</p>
+<p>Line Number: 37</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/scolarites/public_html/www/application/views/etudiant/chart_js.php<br />
+			Line: 37<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/scolarites/public_html/www/application/views/etudiant/shared/footer/index.php<br />
+			Line: 106<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/scolarites/public_html/www/application/views/etudiant/shared/layout6.php<br />
+			Line: 9<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/scolarites/public_html/www/application/controllers/Demande.php<br />
+			Line: 229<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/scolarites/public_html/www/index.php<br />
+			Line: 292<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>null,
+        }, ]
+    };
+
+    var bar = document.getElementById("barChart").getContext('2d');
+    var myBarChart = new Chart(bar, {
+        type: 'bar',
+        data: data1,
+        options: {
+            barValueSpacing: 20
+        }
+    });
+
+    /*END Bar chart*/
+});
+</script>
+
+
+
+
+    <script src="../assets/dropify/js/dropify.min.js"></script>
+    <script src="../assets/assets2/bootstrap-sweetalert/sweet-alert.js"></script>
+    <script src="../assets/JqueryPrintArea/demo/jquery.PrintArea.js"></script>
+    
+    <!-- Pour les notification positive -->
+        
+    <!-- Pour les notification d'avertissement -->
+    
+
+
+    <script>
+    $(document).ready(function() {
+        $("#print").click(function() {
+            var mode = 'iframe'; //popup
+            var close = mode == "popup";
+            var options = {
+                mode: mode,
+                popClose: close
+            };
+            $("div.contenu").printArea(options);
+        });
+
+    });
+
+    //rafraichissement du nombre messages reçus et non lus chaque 3s
+    /*setInterval(function(){
+		$(".nb_message").load("https://scolarite.uvci.edu.ci/Messagerie/unread_sms");
+	}, 3000);*/
+
+    //TRAITEMENT DES PAIEMENTS MOOV MONEY  CHAQUE 30min * 60000
+    // setInterval(function(){
+	// 	$.ajax({
+    //         type:"get",
+    //         url:"https://scolarite.uvci.edu.ci/Paiement/run_payment_moov",
+    //         datatype:"html",
+    //         success:function(data)
+    //         {
+    //             //do something with response data
+    //         }
+    //     });
+	// }, 1800000);
+    
+    </script>
+
+    <script>
+
+        $("#niveau_loader").hide(); $("#domaine_loader").hide(); $("#club_loader").hide();
+        $(".equi").hide(); $("#serie_loader").hide();
+
+        //$(".salarie").hide(); $('.demandeur').hide();
+        if($('.c_salarie').val() == "1")
+        {
+            $('.salarie').show(); $('.demandeur').hide();
+
+            $('[name="secteur"]').attr('required', true); $('[name="emploi_actuel"]').attr('required', true);
+            $('[name="employeur"]').attr('required', true);  $('[name="tel_employeur"]').attr('required', true); 
+
+            $('[name="demandeur_emploi"]').removeAttr('required'); 
+        }
+        else if($('.c_salarie').val() == "0")
+        {
+            $('.salarie').hide(); $('.demandeur').show();
+
+            $('[name="demandeur_emploi"]').attr('required', true); 
+
+            $('[name="secteur"]').attr('required', false); $('[name="emploi_actuel"]').attr('required', false);
+            $('[name="employeur"]').attr('required', false);  $('[name="tel_employeur"]').attr('required', false); 
+        }
+        else if($('.c_salarie').val() == "")
+        {
+            $('.salarie').hide(); $('.demandeur').hide();
+        }
+
+        setTimeout(function() {   //calls click event after a certain time
+            $('.message').removeClass('bounceIn');
+            $('.message').addClass('bounceOut');
+            //$('.message').addClass('fadeOutUp');
+        }, 20000);
+        
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Basic
+            $('.dropify').dropify();
+            // Translated
+            $('.dropify-fr').dropify({
+                messages: {
+                    default: 'Glissez-déposez un fichier ici ou cliquez'
+                    , replace: 'Glissez-déposez un fichier ou cliquez pour remplacer'
+                    , remove: 'Supprimer'
+                    , error: 'Désolé, le fichier trop volumineux'
+                }
+            });
+            // Used events
+            var drEvent = $('#input-file-events').dropify();
+            drEvent.on('dropify.beforeClear', function (event, element) {
+                return confirm("Do you really want to delete \"" + element.file.name + "\" ?");
+            });
+            drEvent.on('dropify.afterClear', function (event, element) {
+                alert('File deleted');
+            });
+            drEvent.on('dropify.errors', function (event, element) {
+                console.log('Has Errors');
+            });
+            var drDestroy = $('#input-file-to-destroy').dropify();
+            drDestroy = drDestroy.data('dropify')
+            $('#toggleDropify').on('click', function (e) {
+                e.preventDefault();
+                if (drDestroy.isDropified()) {
+                    drDestroy.destroy();
+                }
+                else {
+                    drDestroy.init();
+                }
+            })
+        });
+    </script>
+    
+</body>
+
+
+<!-- Mirrored from scolarite.uvci.edu.ci/Demande/licence_equivalence by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 May 2020 16:48:15 GMT -->
+</html>
